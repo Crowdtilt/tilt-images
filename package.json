@@ -1,6 +1,6 @@
 {
   "name": "tilt-images",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "SVG images used on the tilt websites",
   "main": "server.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "unit-test": "karma start karma.conf.js --singleRun true"
   },
   "authors": [
-    "carlos <carlosrr@gmail.com>"
+    "carlos <carlosrr@gmail.com>",
+    "tildedave <tildedave@gmail.com>"
   ],
   "license": "ISC",
   "devDependencies": {

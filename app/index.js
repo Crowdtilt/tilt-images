@@ -5,4 +5,5 @@ var include = function(componentName) {
 
 include("TiltLogoImage");
 include("TiltLogoTextImage");
+include("PaperAirplaneImage");
 module.exports = exports;
