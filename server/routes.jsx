@@ -12,6 +12,8 @@ var App = React.createClass({
             <TiltIcons.TiltLogoImage size={100} />
             <TiltIcons.TiltLogoTextImage size={100} />
             <TiltIcons.PaperAirplaneImage size={200} />
+            <TiltIcons.ChevronDownImage width={100} height={100} />
+            <TiltIcons.ChevronDownImage width={100} height={100} fill="red" />
         </div>;
     }
 });
