@@ -11,7 +11,8 @@ var App = React.createClass({
             <h1>Hello world</h1>
             <TiltIcons.TiltLogoImage size={100} />
             <TiltIcons.TiltLogoTextImage size={100} />
-            <TiltIcons.PaperAirplaneImage size={200} />
+            <TiltIcons.PaperAirplaneImage width={200} height={200} />
+            <TiltIcons.ChevronDownIcon width={100} height={100} />
         </div>;
     }
 });

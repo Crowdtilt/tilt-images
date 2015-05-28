@@ -6,4 +6,6 @@ var include = function(componentName) {
 include("TiltLogoImage");
 include("TiltLogoTextImage");
 include("PaperAirplaneImage");
+include("ChevronDownIcon");
+
 module.exports = exports;

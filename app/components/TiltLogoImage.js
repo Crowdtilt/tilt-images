@@ -34,7 +34,7 @@ var TiltLogoImage = React.createClass({
             radius = 69;
 
         return (
-            <svg ref="circle" width={width} height={height} x="0" y="0" viewBox="0 0 144 144">
+            <svg {...this.props} ref="circle" width={width} height={height} x="0" y="0" viewBox="0 0 144 144">
                 <circle stroke={BLUE_COLOR} fill="none" strokeWidth="10" cx="72" cy="72" r="66"/>
                 {this.renderInternalCircle("circle1", 62, 103, 10)}
                 {this.renderInternalCircle("circle2", 72, 72, 10)}
