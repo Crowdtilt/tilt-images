@@ -5,18 +5,20 @@ var React = require('react');
 module.exports = React.createClass({
 
     propTypes: {
-        size: React.PropTypes.number
+        width: React.PropTypes.number,
+        height: React.PropTypes.number
     },
 
     getDefaultProps: function() {
         return {
-            size: 30
+            width: 30,
+            height: 30
         }
     },
 
     render: function() {
         return (
-            <svg width={this.props.size} height={this.props.size} viewBox="0 0 29 30">
+            <svg {...this.props} viewBox="0 0 29 30" {...this.props}>
                 <title>Airplane Icon</title>
                 <defs></defs>
                 <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
