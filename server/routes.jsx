@@ -13,6 +13,15 @@ var App = React.createClass({
             <TiltIcons.TiltLogoTextImage size={100} />
             <TiltIcons.PaperAirplaneImage width={200} height={200} />
             <TiltIcons.ChevronDownIcon width={100} height={100} />
+            <TiltIcons.Triangle width={100} height={80} />
+            <div className="advanced-options">
+                <TiltIcons.Clipboard />
+                <TiltIcons.EnvelopeOpened />
+                <TiltIcons.OneLeft />
+                <TiltIcons.Options />
+                <TiltIcons.UsersTwo />
+                <TiltIcons.Gift />
+            </div>
         </div>;
     }
 });
