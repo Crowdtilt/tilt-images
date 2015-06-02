@@ -1,4 +1,6 @@
 # Changelog
+## 2.1.0
+    Added AdvancedOption components
 
 ## 2.0.0
 	Added Changelog
