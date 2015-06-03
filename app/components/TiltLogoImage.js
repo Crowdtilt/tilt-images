@@ -5,7 +5,13 @@ var TiltLogoImage = React.createClass({
     displayName: "TiltLogoImage",
 
     propTypes: {
-        size: React.PropTypes.number.isRequired,
+        size: React.PropTypes.number,
+    },
+
+    getDefaultProps: function() {
+        return {
+            size: 100
+        };
     },
 
     renderInternalCircle: function(ref, x, y, r) {

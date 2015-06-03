@@ -1,9 +1,11 @@
+@import "./support/colors";
+
 .tilt-icon.tilt-icon-permission-friends {
     width: 340px;
     height: 300px;
 
     .tilt-icon-main {
-        fill: #00A0D8;
+        fill: $tilt-blue;
         stroke: none;
         fill-rule: evenodd;
         stroke-width: 1;

@@ -7,8 +7,15 @@ var React = require("react"),
 var TiltLogoTextImage = React.createClass({
     displayName: "TiltLogoTextImage",
     propTypes: {
-        size: React.PropTypes.number.isRequired
+        size: React.PropTypes.number,
     },
+
+    getDefaultProps: function() {
+        return {
+            size: 100
+        };
+    },
+
     getHeight: function() {
         return this.props.size;
     },
