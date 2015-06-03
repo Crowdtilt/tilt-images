@@ -3,6 +3,8 @@
 ## 2.2.0
     Added PermissionFriends
     Added PermissionEmailEnvelope
+    Added stylesheets for advanced option icons
+    Added "should render without errors"
 
 ## 2.1.0
     Added AdvancedOption components

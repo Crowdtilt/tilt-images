@@ -7,28 +7,21 @@ var React = require('react'),
 
 var App = React.createClass({
     render: function() {
+        const icons = [];
+        for (var iconName in TiltIcons) {
+            let Klass = TiltIcons[iconName],
+                markup = <div key={"icon-" + iconName}>
+                    <pre>TiltIcons.{iconName}</pre>
+                    <Klass />
+                </div>
+            icons.push(markup);
+        }
+
         return <div>
             <h1>Hello world</h1>
-            <TiltIcons.TiltLogoImage size={100} />
-            <TiltIcons.TiltLogoTextImage size={100} />
-            <TiltIcons.PaperAirplaneImage width={200} height={200} />
-            <TiltIcons.ChevronDownIcon width={100} height={100} />
-            <TiltIcons.Triangle width={100} height={80} />
-
-            <TiltIcons.PermissionFriends />
-            <TiltIcons.PermissionEmailEnvelope />
-            <div className="advanced-options">
-                <TiltIcons.Clipboard />
-                <TiltIcons.EnvelopeOpened />
-                <TiltIcons.OneLeft />
-                <TiltIcons.Options />
-                <TiltIcons.UsersTwo />
-                <TiltIcons.Gift />
-            </div>
+            {icons}
         </div>;
     }
 });
 
-module.exports = (
-    <Route name="app" path="/" handler={App} />
-);
+module.exports = <Route name="app" path="/" handler={App} />;
