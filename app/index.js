@@ -3,18 +3,16 @@ var include = function(componentName) {
     exports[componentName] = require("./components/" + componentName);
 };
 
-include("ChevronDownIcon");
-include("Clipboard");
-include("PaperAirplaneImage");
-include("PermissionEmailEnvelope");
-include("PermissionFriends");
 include("TiltLogoImage");
 include("TiltLogoTextImage");
+include("PaperAirplaneImage");
 include("Triangle");
+include("ChevronDownIcon");
+include("Clipboard");
+include('Options');
+include('OneLeft');
+include('UsersTwo');
 include('EnvelopeOpened');
 include('Gift');
-include('OneLeft');
-include('Options');
-include('UsersTwo');
 
 module.exports = exports;

@@ -14,9 +14,6 @@ var App = React.createClass({
             <TiltIcons.PaperAirplaneImage width={200} height={200} />
             <TiltIcons.ChevronDownIcon width={100} height={100} />
             <TiltIcons.Triangle width={100} height={80} />
-
-            <TiltIcons.PermissionFriends />
-            <TiltIcons.PermissionEmailEnvelope />
             <div className="advanced-options">
                 <TiltIcons.Clipboard />
                 <TiltIcons.EnvelopeOpened />

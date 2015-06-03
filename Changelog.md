@@ -1,9 +1,4 @@
 # Changelog
-
-## 2.2.0
-    Added PermissionFriends
-    Added PermissionEmailEnvelope
-
 ## 2.1.0
     Added AdvancedOption components
 
