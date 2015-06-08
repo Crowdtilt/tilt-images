@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.3.0
+    Added Camera
+
 ## 2.2.0
     Added PermissionFriends
     Added PermissionEmailEnvelope

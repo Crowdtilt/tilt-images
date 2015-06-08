@@ -3,6 +3,7 @@ var include = function(componentName) {
     exports[componentName] = require("./components/" + componentName);
 };
 
+include('Camera');
 include('ChevronDownIcon');
 include('Clipboard');
 include('EnvelopeOpened');
@@ -16,5 +17,4 @@ include('TiltLogoImage');
 include('TiltLogoTextImage');
 include('Triangle');
 include('UsersTwo');
-
 module.exports = exports;
