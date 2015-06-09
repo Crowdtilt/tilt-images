@@ -4,6 +4,7 @@ var include = function(componentName) {
 };
 
 include('Camera');
+include('Checkmark');
 include('ChevronDownIcon');
 include('Clipboard');
 include('EnvelopeOpened');
