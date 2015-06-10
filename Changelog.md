@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.4.0
+    Added Checkmark
+
 ## 2.3.0
     Added Camera
 
