@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.4.1
+    Update package.json to avoid newest version of node-sass (broken)
+
 ## 2.4.0
     Added Checkmark
     Fixes Warning
