@@ -13,7 +13,7 @@ var Camera = React.createClass({
             <svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1">
                 <title>camera</title>
                 <defs></defs>
-                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                     <g transform="translate(-722.000000, -146.000000)">
                         <g transform="translate(720.000000, 144.000000)">
                             <rect x="0" y="0" width="30" height="30"></rect>
