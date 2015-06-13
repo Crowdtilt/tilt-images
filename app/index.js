@@ -8,6 +8,7 @@ include('Checkmark');
 include('ChevronDownIcon');
 include('Clipboard');
 include('EnvelopeOpened');
+include('FilmStrip');
 include('Gift');
 include('OneLeft');
 include('Options');
