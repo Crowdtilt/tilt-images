@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.0
+    Moved TiltLogoImage to TiltLogo and made it use CSS
+    Moved TiltChevronDown to TiltChevron and made the rotation configurable
+
 ## 2.5.0
     Added Filmstrip
 
