@@ -1,11 +1,11 @@
 var exports = {};
 var include = function(componentName) {
-    exports[componentName] = require("./components/" + componentName);
+    exports[componentName] = require('./components/' + componentName);
 };
 
 include('Camera');
 include('Checkmark');
-include('ChevronDownIcon');
+include('ChevronIcon');
 include('Clipboard');
 include('EnvelopeOpened');
 include('FilmStrip');
@@ -15,8 +15,9 @@ include('Options');
 include('PaperAirplaneImage');
 include('PermissionEmailEnvelope');
 include('PermissionFriends');
-include('TiltLogoImage');
+include('TiltLogo');
 include('TiltLogoTextImage');
 include('Triangle');
 include('UsersTwo');
+
 module.exports = exports;

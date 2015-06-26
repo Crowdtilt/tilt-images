@@ -1,0 +1,14 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-logo {
+    max-width: 50px;
+    max-height: 50px;
+    .tilt-icon-main {
+        fill: $tilt-blue;
+    }
+
+    .tilt-logo-outside-circle {
+        fill: none;
+        stroke: $tilt-blue;
+    }
+}
