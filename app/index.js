@@ -15,6 +15,7 @@ include('Options');
 include('PaperAirplaneImage');
 include('PermissionEmailEnvelope');
 include('PermissionFriends');
+include('TagFriend');
 include('TiltLogo');
 include('TiltLogoTextImage');
 include('Triangle');

@@ -1,0 +1,12 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-tag-friend {
+    width: 61px;
+    height: 56px;
+    .tilt-icon-main {
+        fill: none;
+        stroke-linecap: square;
+        stroke-width: 2px;
+        stroke: $tilt-blue;
+    }
+}
