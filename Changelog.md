@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.1.0
+    Adding Tag friend icon
+
 ## 3.0.0
     Moved TiltLogoImage to TiltLogo and made it use CSS
     Moved TiltChevronDown to TiltChevron and made the rotation configurable
