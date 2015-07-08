@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.2.0
+    Added Lock Icon
+    Added Cards Icon
+    Added Group Icon
+    
 ## 3.1.0
     Adding Tag friend icon
 
