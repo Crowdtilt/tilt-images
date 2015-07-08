@@ -4,12 +4,15 @@ var include = function(componentName) {
 };
 
 include('Camera');
+include('Cards');
 include('Checkmark');
 include('ChevronIcon');
 include('Clipboard');
 include('EnvelopeOpened');
 include('FilmStrip');
 include('Gift');
+include('Group');
+include('Lock');
 include('OneLeft');
 include('Options');
 include('PaperAirplaneImage');

@@ -1,0 +1,16 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-group{
+    width: 34px;
+    height: 30px;
+    .tilt-icon-main {
+        fill: none;
+        fill-rule: evenodd;
+        stroke-width: 1px;
+        stroke: none;
+    }
+
+    .tilt-icon-inner{
+        fill: $tilt-blue;
+    }
+}
