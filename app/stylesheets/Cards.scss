@@ -1,0 +1,18 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-cards{
+    width: 30px;
+    height: 30px;
+    .tilt-icon-main {
+        fill: none;
+        fill-rule: evenodd;
+        stroke-width: 1px;
+        stroke: none;
+    }
+
+    .tilt-icon-inner{
+        fill: $tilt-blue;
+        stroke: $tilt-blue;
+        stroke-width: 0.3;
+    }
+}
