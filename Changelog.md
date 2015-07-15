@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.3.0
+    Added Star Icon
+
 ## 3.2.0
     Added Lock Icon
     Added Cards Icon
