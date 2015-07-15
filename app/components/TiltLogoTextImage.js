@@ -1,11 +1,12 @@
-var React = require("react"),
-    COLOR_BLUE = "#00A0DB",
-    ORIGINAL_IMAGE_HEIGHT = 216.5,
-    ORIGINAL_IMAGE_WIDTH = 525.7,
-    COLOR_GRAY = "#666666";
+const React = require("react");
+const COLOR_BLUE = '#00A0DB';
+const ORIGINAL_IMAGE_HEIGHT = 216.5;
+const ORIGINAL_IMAGE_WIDTH = 525.7;
+const COLOR_GRAY = '#666666';
 
-var TiltLogoTextImage = React.createClass({
-    displayName: "TiltLogoTextImage",
+const TiltLogoTextImage = React.createClass({
+    displayName: 'TiltLogoTextImage',
+
     propTypes: {
         size: React.PropTypes.number,
     },

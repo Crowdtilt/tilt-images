@@ -1,7 +1,9 @@
-var React = require('react');
-var classnames = require('classnames');
+const React = require('react');
+const classnames = require('classnames');
 
-var Group = React.createClass({
+const Group = React.createClass({
+    displayName: 'Group',
+
     render: function() {
         const classes = classnames('tilt-icon tilt-icon-group', this.props.className);
 

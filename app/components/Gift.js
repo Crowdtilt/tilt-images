@@ -1,12 +1,13 @@
 'use strict';
 
-var React = require('react');
-var classnames = require('classnames');
+const React = require('react');
+const classnames = require('classnames');
 
 module.exports = React.createClass({
+    displayName: 'Gift',
 
     render: function() {
-        var classes = classnames({
+        const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-gift': true,
             [this.props.className]: !!this.props.className
