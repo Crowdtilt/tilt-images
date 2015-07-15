@@ -1,12 +1,13 @@
 'use strict';
 
-const React = require('react'),
-    classnames = require('classnames');
+const React = require('react');
+const classnames = require('classnames');
 
 module.exports = React.createClass({
     displayName: "PermissionEmailEnvelope",
+
     render: function() {
-        var classes = classnames({
+        const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-permission-email-envelope': true,
             [this.props.className]: !!this.props.className

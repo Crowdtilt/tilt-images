@@ -1,7 +1,9 @@
-var React = require('react');
-var classnames = require('classnames');
+const React = require('react');
+const classnames = require('classnames');
 
-var Cards = React.createClass({
+const Cards = React.createClass({
+    displayName: 'Cards',
+
     render: function() {
         const classes = classnames('tilt-icon tilt-icon-cards', this.props.className);
         return (

@@ -1,7 +1,9 @@
-var React = require('react');
-var classnames = require('classnames');
-    
-var Camera = React.createClass({
+const React = require('react');
+const classnames = require('classnames');
+
+const Camera = React.createClass({
+    displayName: 'Camera',
+
     render: function() {
         const classes = classnames({
             'tilt-icon': true,

@@ -1,7 +1,9 @@
-var React = require('react');
-var classnames = require('classnames');
+const React = require('react');
+const classnames = require('classnames');
 
 module.exports = React.createClass({
+    displayName: 'Checkmark',
+
     getDefaultProps: function() {
         return {
             width: 18,
@@ -9,7 +11,7 @@ module.exports = React.createClass({
         }
     },
     render: function() {
-        var classes = classnames({
+        const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-checkmark': true,
             [this.props.className]: !!this.props.className
