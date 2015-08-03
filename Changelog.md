@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.4.0
+    Added FacebookLogo Icon
+    Added TwitterLogo Icon
+    Added FacebookMessengerLogo Icon
+    Added GmailLogoIcon
+    Code style updates
+
 ## 3.3.0
     Added Star Icon
 

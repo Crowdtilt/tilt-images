@@ -4,7 +4,7 @@ const classnames = require('classnames');
 module.exports = React.createClass({
     displayName: 'Clipboard',
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-clipboard': true,

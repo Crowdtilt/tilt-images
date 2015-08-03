@@ -6,7 +6,7 @@ const classnames = require('classnames');
 module.exports = React.createClass({
     displayName: "PermissionEmailEnvelope",
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-permission-email-envelope': true,

@@ -17,7 +17,7 @@ module.exports = React.createClass({
         return <circle className={classes} {...props} r='10' />;
     },
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-logo': true,

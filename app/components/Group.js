@@ -4,7 +4,7 @@ const classnames = require('classnames');
 const Group = React.createClass({
     displayName: 'Group',
 
-    render: function() {
+    render() {
         const classes = classnames('tilt-icon tilt-icon-group', this.props.className);
 
         return (

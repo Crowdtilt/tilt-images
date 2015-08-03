@@ -16,7 +16,7 @@ module.exports = React.createClass({
         }
     },
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-triangle': true,

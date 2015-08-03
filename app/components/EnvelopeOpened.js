@@ -6,7 +6,7 @@ const classnames = require('classnames');
 module.exports = React.createClass({
     displayName: 'EnvelopeOpened',
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-envelope-opened': true,

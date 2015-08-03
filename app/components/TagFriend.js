@@ -4,7 +4,7 @@ const classnames = require('classnames');
 module.exports = React.createClass({
     displayName: 'TagFriend',
 
-    render: function() {
+    render() {
         const classes = classnames('tilt-icon tilt-icon-tag-friend', this.props.className);
         return <svg className={classes} viewBox="0 0 61 56">
             <title>TagFriend</title>
