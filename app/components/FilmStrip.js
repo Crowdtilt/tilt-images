@@ -4,7 +4,7 @@ const classnames = require('classnames');
 const FilmStrip = React.createClass({
     displayName: 'FilmStrip',
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-filmstrip': true,

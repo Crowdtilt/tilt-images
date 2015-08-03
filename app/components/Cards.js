@@ -4,7 +4,7 @@ const classnames = require('classnames');
 const Cards = React.createClass({
     displayName: 'Cards',
 
-    render: function() {
+    render() {
         const classes = classnames('tilt-icon tilt-icon-cards', this.props.className);
         return (
             <svg className={classes} viewBox="0 0 30 30">

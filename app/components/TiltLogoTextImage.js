@@ -25,7 +25,7 @@ const TiltLogoTextImage = React.createClass({
         return this.getHeight() * (ORIGINAL_IMAGE_WIDTH / ORIGINAL_IMAGE_HEIGHT);
     },
 
-    render: function() {
+    render() {
         return (
             <svg {...this.props} width={this.getWidth()} height={this.getHeight()} x="0" y="0" viewBox="0 0 525.7 216.5">
                 <path fill={COLOR_BLUE} d="M108.6,145.1c0,6.6-5.3,11.8-11.8,11.8c-6.5,0-11.8-5.3-11.8-11.8c0-6.5,5.3-11.8,11.8-11.8

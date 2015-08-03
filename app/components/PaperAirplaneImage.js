@@ -17,7 +17,7 @@ module.exports = React.createClass({
         }
     },
 
-    render: function() {
+    render() {
         return (
             <svg {...this.props} viewBox="0 0 29 30" {...this.props}>
                 <title>Airplane Icon</title>

@@ -10,7 +10,7 @@ module.exports = React.createClass({
             height: 13
         }
     },
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-checkmark': true,

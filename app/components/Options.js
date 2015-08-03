@@ -4,7 +4,7 @@ const classnames = require('classnames');
 module.exports = React.createClass({
     displayName: 'Options',
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-icon-options': true,

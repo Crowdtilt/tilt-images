@@ -4,7 +4,7 @@ const classnames = require('classnames');
 const Camera = React.createClass({
     displayName: 'Camera',
 
-    render: function() {
+    render() {
         const classes = classnames({
             'tilt-icon': true,
             'tilt-camera': true,

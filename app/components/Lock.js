@@ -4,7 +4,7 @@ const classnames = require('classnames');
 const Lock = React.createClass({
     displayName: 'Lock',
 
-    render: function() {
+    render() {
         const classes = classnames('tilt-icon tilt-icon-lock', this.props.className);
 
         return (
