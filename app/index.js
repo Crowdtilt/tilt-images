@@ -25,6 +25,7 @@ include('PaperAirplaneImage');
 include('PermissionEmailEnvelope');
 include('PermissionFriends');
 include('Platforms');
+include('SellOptions');
 include('Star');
 include('TagFriend');
 include('TiltLogo');
