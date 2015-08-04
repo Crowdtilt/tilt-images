@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.0
+    Added SellOptions Icon
+    Added LuggageCart Icon
+
 ## 3.5.0
     Added Audience Icon
     Added Money Icon
