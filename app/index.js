@@ -17,6 +17,7 @@ include('Gift');
 include('GmailLogo');
 include('Group');
 include('Lock');
+include('LuggageCart');
 include('Money');
 include('OneLeft');
 include('Options');
