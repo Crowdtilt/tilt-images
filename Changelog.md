@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.5.0
+    Added Audience Icon
+    Added Money Icon
+    Added Platforms Icon
+    Added TiltLogoOutline Icon
+
 ## 3.4.0
     Added FacebookLogo Icon
     Added TwitterLogo Icon
