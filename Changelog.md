@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.7.0
+    Added AnonymousUser Icon
+
 ## 3.6.0
     Added SellOptions Icon
     Added LuggageCart Icon

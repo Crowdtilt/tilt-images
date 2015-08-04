@@ -3,6 +3,7 @@ var include = function(componentName) {
     exports[componentName] = require('./components/' + componentName);
 };
 
+include('AnonymousUser');
 include('Audience');
 include('Camera');
 include('Cards');
