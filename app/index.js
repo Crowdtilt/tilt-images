@@ -1,5 +1,5 @@
-var exports = {};
-var include = function(componentName) {
+const exports = {};
+const include = function(componentName) {
     exports[componentName] = require('./components/' + componentName);
 };
 
@@ -10,6 +10,7 @@ include('Cards');
 include('Checkmark');
 include('ChevronIcon');
 include('Clipboard');
+include('CopyLink');
 include('EnvelopeOpened');
 include('FacebookLogo');
 include('FacebookMessengerLogo');

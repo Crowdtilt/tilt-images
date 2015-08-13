@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.8.0
+    Added CopyLink Icon
+
 ## 3.7.0
     Added AnonymousUser Icon
 
