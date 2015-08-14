@@ -18,6 +18,7 @@ include('FilmStrip');
 include('Gift');
 include('GmailLogo');
 include('Group');
+include('GroupSolid');
 include('Lock');
 include('LuggageCart');
 include('Money');
