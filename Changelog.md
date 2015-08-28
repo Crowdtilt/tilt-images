@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.11.0
+    Added EnvelopeFlying Icon
+
 ## 3.10.0
     Added WhatsAppLogo Icon
 
