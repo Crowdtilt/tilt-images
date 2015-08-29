@@ -37,5 +37,6 @@ include('TiltLogoTextImage');
 include('Triangle');
 include('TwitterLogo');
 include('UsersTwo');
+include('WhatsAppLogo');
 
 module.exports = exports;
