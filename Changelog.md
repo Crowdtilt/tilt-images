@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.10.0
+    Added WhatsAppLogo Icon
+
 ## 3.9.0
     Added GroupSolid Icon
 
