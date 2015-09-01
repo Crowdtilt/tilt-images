@@ -12,6 +12,7 @@ include('ChevronIcon');
 include('Clipboard');
 include('CopyLink');
 include('EnvelopeOpened');
+include('EnvelopeFlying');
 include('FacebookLogo');
 include('FacebookMessengerLogo');
 include('FilmStrip');
