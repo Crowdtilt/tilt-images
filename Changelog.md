@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.12.0
+    Added LockSolid Icon
+
 ## 3.11.0
     Added EnvelopeFlying Icon
 
