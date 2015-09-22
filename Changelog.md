@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.13.0
+    Added Clock Icon
+
 ## 3.12.0
     Added LockSolid Icon
 

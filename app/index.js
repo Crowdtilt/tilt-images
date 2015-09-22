@@ -9,6 +9,7 @@ include('Camera');
 include('Cards');
 include('Checkmark');
 include('ChevronIcon');
+include('Clock');
 include('Clipboard');
 include('CopyLink');
 include('EnvelopeOpened');
