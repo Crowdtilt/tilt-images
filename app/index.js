@@ -21,6 +21,7 @@ include('Gift');
 include('GmailLogo');
 include('Group');
 include('GroupSolid');
+include('GroupCircled');
 include('Lock');
 include('LockSolid');
 include('LuggageCart');
