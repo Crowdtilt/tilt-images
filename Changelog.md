@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.14.0
+    Added GroupCircled Icon
+
 ## 3.13.0
     Added Clock Icon
 
