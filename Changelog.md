@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.15.0
+    Added Delete Icon
+    Added Close Icon
+    Added Duplicate Icon
+    Added PlusCross Icon
+    Added Pencil Icon
+    Added Dots Icon
+
 ## 3.14.0
     Added GroupCircled Icon
 
