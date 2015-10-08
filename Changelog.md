@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.16.1
+    Fixing MembersSolid Icon dimensions
+
 ## 3.16.0
     Added MembersSolid Icon
 
