@@ -29,6 +29,7 @@ include('GroupSolid');
 include('Lock');
 include('LockSolid');
 include('LuggageCart');
+include('MembersSolid');
 include('Money');
 include('OneLeft');
 include('Options');

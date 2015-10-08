@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.16.0
+    Added MembersSolid Icon
+
 ## 3.15.0
     Added Delete Icon
     Added Close Icon
