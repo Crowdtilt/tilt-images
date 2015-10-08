@@ -1,0 +1,13 @@
+@import "support/colors";
+
+.tilt-icon-tag-friend-solid {
+    width: 18px;
+    height: 14px;
+
+    .tilt-icon-main {
+        fill: $tilt-blue;
+        stroke: $tilt-blue;
+        stroke-width: 1;
+        fill-rule: evenodd;
+    }
+}
