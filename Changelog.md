@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.17.0
+    Added TagFriendSolid Icon
+
 ## 3.16.1
     Fixing MembersSolid Icon dimensions
 

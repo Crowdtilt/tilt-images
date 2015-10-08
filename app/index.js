@@ -42,6 +42,7 @@ include('PlusCross');
 include('SellOptions');
 include('Star');
 include('TagFriend');
+include('TagFriendSolid');
 include('TiltLogo');
 include('TiltLogoOutline');
 include('TiltLogoTextImage');
