@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.17.1
+    Updated GroupCircled to contain lock
+    Updated GroupCircled to take a maskId identifier to avoid id conflicts
+    Removed unnecessary whitespace from JavaScript files
+
 ## 3.17.0
     Added TagFriendSolid Icon
 

@@ -20,7 +20,6 @@ var App = React.createClass({
         return <div>
             <h1>Hello world</h1>
 
-
             <div>
                 <pre>TiltIcons.ChevronIcon rotation=90</pre>
                 <TiltIcons.ChevronIcon rotation={90} />
@@ -28,6 +27,10 @@ var App = React.createClass({
                 <TiltIcons.ChevronIcon rotation={180} />
                 <pre>TiltIcons.ChevronIcon rotation=-90</pre>
                 <TiltIcons.ChevronIcon rotation={-90} />
+                <pre>TiltIcons.GroupCircled isLocked=false</pre>
+                <TiltIcons.GroupCircled isLocked={false} />
+                <pre>TiltIcons.GroupCircled isLocked=true</pre>
+                <TiltIcons.GroupCircled isLocked={true} />
             </div>
             {icons}
         </div>;
