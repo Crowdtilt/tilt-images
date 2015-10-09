@@ -1,20 +1,32 @@
 .tilt-icon.tilt-icon-group-circled {
     @import "support/colors";
-    width: 52px;
-    height: 52px;
+    width: 72px;
+    height: 74px;
     mask {
         fill: #FFF;
     }
 
     .tilt-icon-border {
         stroke: $tilt-blue;
+        stroke-width: 2px;
         fill: transparent;
     }
 
     .tilt-icon-main {
-        mask: url(#mask-2);
         stroke: $tilt-blue;
         stroke-width: 0.5;
         fill: $tilt-blue;
+    }
+
+    .tilt-icon-group-circled-lock {
+        ellipse {
+          stroke: #FFF;
+          stroke-width: 2px;
+          fill: $tilt-blue;
+        }
+
+        path {
+          fill: #FFF;
+        }
     }
 }
