@@ -1,6 +1,6 @@
 const exports = {};
 const include = function(componentName) {
-    exports[componentName] = require('./components/' + componentName);
+  exports[componentName] = require('./components/' + componentName);
 };
 
 include('AnonymousUser');
