@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.17.2
+    Fix Camera component to use props.className
+
 ## 3.17.1
     Updated GroupCircled to contain lock
     Updated GroupCircled to take a maskId identifier to avoid id conflicts
