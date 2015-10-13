@@ -5,14 +5,9 @@ const Camera = React.createClass({
   displayName: 'Camera',
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-camera': true,
-      [this.props.className]: !!this.props.className
-    });
-
     return (
-      <svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1">
+      <svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1"
+            className={classnames('tilt-icon tilt-camera', this.props.className)}>
         <title>camera</title>
         <defs></defs>
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
