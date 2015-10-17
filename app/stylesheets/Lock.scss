@@ -1,18 +1,18 @@
 @import "support/colors";
 
 .tilt-icon.tilt-icon-lock{
-    width: 24px;
-    height: 32px;
-    .tilt-icon-main {
-        fill: none;
-        fill-rule: evenodd;
-        stroke-width: 1px;
-        stroke: none;
-    }
+  width: 24px;
+  height: 32px;
+  .tilt-icon-main {
+    fill: none;
+    fill-rule: evenodd;
+    stroke-width: 1px;
+    stroke: none;
+  }
 
-    .tilt-icon-inner{
-        fill: $tilt-blue;
-        stroke: $tilt-blue;
-        stroke-width: 0.1;
-    }
+  .tilt-icon-inner{
+    fill: $tilt-blue;
+    stroke: $tilt-blue;
+    stroke-width: 0.1;
+  }
 }
