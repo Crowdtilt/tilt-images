@@ -11,15 +11,11 @@ module.exports = React.createClass({
     return <svg className={classes} viewBox="0 0 50 50">
       <title>AnonymousUser</title>
       <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(-306.000000, -869.000000)">
-          <g transform="translate(306.000000, 869.000000)">
-            <mask id="mask-2" fill="white">
-              <circle cx="25" cy="25" r="25" />
-            </mask>
-            <circle cx="25" cy="25" r="25" fill="#EDEDED" />
-            <g dangerouslySetInnerHTML={{__html: path}} />
-          </g>
-        </g>
+        <mask id="mask-2" fill="white">
+          <circle cx="25" cy="25" r="25" />
+        </mask>
+        <circle cx="25" cy="25" r="25" fill="#EDEDED" />
+        <g dangerouslySetInnerHTML={{__html: path}} />
       </g>
     </svg>;
   }
