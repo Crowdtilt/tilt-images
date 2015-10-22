@@ -4,6 +4,7 @@ const include = function(componentName) {
 };
 
 include('AnonymousUser');
+include('Add');
 include('Audience');
 include('Camera');
 include('Cards');
@@ -39,6 +40,7 @@ include('PermissionEmailEnvelope');
 include('PermissionFriends');
 include('Platforms');
 include('PlusCross');
+include('Remove');
 include('SellOptions');
 include('Star');
 include('TagFriend');
