@@ -1,13 +1,10 @@
-'use strict';
+const React = require('react');
+const PermissionEmailEnvelope = require('root/app/components/PermissionEmailEnvelope');
+const {getTextContent} = require('../helpers/getTextContent');
 
 describe('PermissionEmailEnvelope', function() {
-    var React = require('react/addons'),
-        TestUtils = React.addons.TestUtils,
-        PermissionEmailEnvelope = require("root/app/components/PermissionEmailEnvelope");
-
-    it("should render without error", function() {
-        var e = TestUtils.renderIntoDocument(<PermissionEmailEnvelope />);
-        e = React.findDOMNode(e);
-        expect(e.textContent).to.equal("PermissionEmailEnvelope");
-    });
+  it('should render without error', function () {
+    const text = getTextContent(<PermissionEmailEnvelope />);
+    expect(text).to.equal('PermissionEmailEnvelope');
+  });
 });

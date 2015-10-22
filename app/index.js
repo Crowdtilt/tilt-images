@@ -4,7 +4,6 @@ const include = function(componentName) {
 };
 
 include('AnonymousUser');
-include('Add');
 include('Audience');
 include('Camera');
 include('Cards');
@@ -27,6 +26,8 @@ include('GmailLogo');
 include('Group');
 include('GroupCircled');
 include('GroupSolid');
+include('ItemAdd');
+include('ItemRemove');
 include('Lock');
 include('LockSolid');
 include('LuggageCart');
@@ -40,7 +41,6 @@ include('PermissionEmailEnvelope');
 include('PermissionFriends');
 include('Platforms');
 include('PlusCross');
-include('Remove');
 include('SellOptions');
 include('Star');
 include('TagFriend');

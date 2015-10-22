@@ -1,5 +1,3 @@
-'use strict';
-
 describe('TiltLogoTextImage', function() {
     var React = require('react/addons'),
         TestUtils = React.addons.TestUtils,

@@ -1,13 +1,10 @@
-'use strict';
+const React = require('react/addons')
+const Clipboard = require('root/app/components/Clipboard');
+const {getTextContent} = require('../helpers/getTextContent');
 
 describe('Clipboard', function() {
-    var React = require('react/addons'),
-        TestUtils = React.addons.TestUtils,
-        Clipboard = require("root/app/components/Clipboard");
-
-    it("should render without error", function() {
-        var e = TestUtils.renderIntoDocument(<Clipboard />);
-        e = React.findDOMNode(e);
-        expect(e.textContent).to.equal("Clipboard");
-    });
+  it('should render without error', function () {
+    const text = getTextContent(<Clipboard />);
+    expect(text).to.equal('Clipboard');
+  });
 });

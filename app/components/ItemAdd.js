@@ -1,8 +1,8 @@
 const React = require('react');
-const { defineSvg } = require('./_defineSvg');
+const { defineSvg } = require('../defineSvg');
 
-module.exports = defineSvg('Add', {
-  className: 'tilt-icon-add',
+module.exports = defineSvg('ItemAdd', {
+  className: 'tilt-icon-item-add',
 
   render() {
     return <svg className={this.getClassNames()} viewBox="0 0 16 16">

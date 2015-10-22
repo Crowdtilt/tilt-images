@@ -1,13 +1,10 @@
-'use strict';
+const React = require('react');
+const EnvelopeOpened = require('root/app/components/EnvelopeOpened');
+const {getTextContent} = require('../helpers/getTextContent');
 
 describe('EnvelopeOpened', function() {
-    var React = require('react/addons'),
-        TestUtils = React.addons.TestUtils,
-        EnvelopeOpened = require("root/app/components/EnvelopeOpened");
-
-    it("should render without error", function() {
-        var e = TestUtils.renderIntoDocument(<EnvelopeOpened />);
-        e = React.findDOMNode(e);
-        expect(e.textContent).to.equal("EnvelopeOpened");
-    });
+  it('should render without error', function () {
+    const text = getTextContent(<EnvelopeOpened />);
+    expect(text).to.equal('EnvelopeOpened');
+  });
 });

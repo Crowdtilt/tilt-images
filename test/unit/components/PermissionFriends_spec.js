@@ -1,13 +1,10 @@
-'use strict';
+const React = require('react');
+const PermissionFriends = require('root/app/components/PermissionFriends');
+const {getTextContent} = require('../helpers/getTextContent');
 
 describe('PermissionFriends', function() {
-    var React = require('react/addons'),
-        TestUtils = React.addons.TestUtils,
-        PermissionFriends = require("root/app/components/PermissionFriends");
-
-    it("should render without error", function() {
-        var e = TestUtils.renderIntoDocument(<PermissionFriends />);
-        e = React.findDOMNode(e);
-        expect(e.textContent).to.equal("PermissionFriends");
-    });
+  it('should render without error', function () {
+    const text = getTextContent(<PermissionFriends />);
+    expect(text).to.equal('PermissionFriends');
+  });
 });
