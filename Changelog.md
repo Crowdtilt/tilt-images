@@ -1,12 +1,13 @@
 # Changelog
 
-## 3.18.0
+## 4.0.0
     Created SVG Icon helper
     Added Remove Icon
     Added Add Icon
     Adding circle-ci integration
     Setting generic tests
     Normalizing title tags
+    Normalizing components to include less nested groups
 
 ## 3.17.2
     Fix Camera component to use props.className
