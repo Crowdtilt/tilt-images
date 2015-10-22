@@ -1,4 +1,4 @@
-const React = require("react");
+const React = require('react');
 const COLOR_BLUE = '#00A0DB';
 const ORIGINAL_IMAGE_HEIGHT = 216.5;
 const ORIGINAL_IMAGE_WIDTH = 525.7;
@@ -13,13 +13,14 @@ const TiltLogoTextImage = React.createClass({
 
   getDefaultProps: function() {
     return {
-      size: 100
+      size: 100,
     };
   },
 
   getHeight: function() {
     return this.props.size;
   },
+
   getWidth: function() {
     // These are magic numbers from the original image source
     return this.getHeight() * (ORIGINAL_IMAGE_WIDTH / ORIGINAL_IMAGE_HEIGHT);
@@ -28,6 +29,7 @@ const TiltLogoTextImage = React.createClass({
   render() {
     return (
       <svg {...this.props} width={this.getWidth()} height={this.getHeight()} x="0" y="0" viewBox="0 0 525.7 216.5">
+        <title>TiltLogoTextImage</title>
         <path fill={COLOR_BLUE} d="M108.6,145.1c0,6.6-5.3,11.8-11.8,11.8c-6.5,0-11.8-5.3-11.8-11.8c0-6.5,5.3-11.8,11.8-11.8
         C103.3,133.3,108.6,138.6,108.6,145.1 M119.3,108.8c0-6.5-5.3-11.8-11.8-11.8c-6.5,0-11.8,5.3-11.8,11.8c0,6.5,5.3,11.8,11.8,11.8
         C114,120.7,119.3,115.4,119.3,108.8 M130,72.5c0-6.5-5.3-11.8-11.8-11.8c-6.5,0-11.9,5.3-11.9,11.8c0,6.5,5.3,11.8,11.9,11.8
@@ -45,7 +47,7 @@ const TiltLogoTextImage = React.createClass({
         C378.1,37.6,379.7,36,381.6,36z"/>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = TiltLogoTextImage;

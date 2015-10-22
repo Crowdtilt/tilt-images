@@ -1,2 +1,2 @@
-var testsContext = require.context(".", true, /.scss$/);
+const testsContext = require.context('.', true, /.scss$/);
 testsContext.keys().forEach(testsContext);

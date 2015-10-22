@@ -5,15 +5,11 @@ const FilmStrip = React.createClass({
   displayName: 'FilmStrip',
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-filmstrip': true,
-      [this.props.className]: !!this.props.className
-    });
+    const classes = classnames('tilt-icon tilt-filmstrip', this.props.className);
 
     return (
-      <svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1">
-        <title>filmstrip</title>
+      <svg className={classes} width="31px" height="31px" viewBox="0 0 31 31" version="1.1">
+        <title>FilmStrip</title>
         <defs></defs>
         <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-722.000000, -410.000000)" fill="#BBBBBB">
@@ -24,7 +20,7 @@ const FilmStrip = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = FilmStrip;

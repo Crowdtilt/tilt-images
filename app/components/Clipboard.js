@@ -5,11 +5,7 @@ module.exports = React.createClass({
   displayName: 'Clipboard',
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-clipboard': true,
-      [this.props.className]: !!this.props.className
-    });
+    const classes = classnames('tilt-icon tilt-icon-clipboard', this.props.className);
     return <svg {...this.props} className={classes} viewBox="-6 -2 41 41" enableBackground="new -6 -2 41 41">
       <title>Clipboard</title>
       <g className="tilt-icon-main">
@@ -18,5 +14,5 @@ module.exports = React.createClass({
           S16,6.7,15,6.7S13.3,6,13.3,5S14,3.3,15,3.3L15,3.3z M26.7,33.3H3.3V6.7h3.3V10h16.7V6.7h3.3V33.3L26.7,33.3z"/>
       </g>
     </svg>;
-  }
+  },
 });

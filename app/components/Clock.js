@@ -2,10 +2,13 @@ const React = require('react');
 const classnames = require('classnames');
 
 module.exports = React.createClass({
+  displayName: 'Clock',
+
   render() {
     const classes = classnames('tilt-icon tilt-icon-clock', this.props.className);
 
     return <svg className={classes} viewBox="0 0 50 46">
+      <title>Clock</title>
       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g className="tilt-icon-main" transform="translate(1.195887, 1.000000)">
           <path d="M31.518797,24.7610629 L23.5090121,24.7610629 L15.6145315,16.8633553 L16.9608199,15.5164963 L24.2974606,22.8563658 L31.518797,22.8563658 L31.518797,24.7610629 L31.518797,24.7610629 Z" />
@@ -17,5 +20,5 @@ module.exports = React.createClass({
         </g>
       </g>
     </svg>;
-  }
+  },
 });
