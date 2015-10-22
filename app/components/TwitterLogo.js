@@ -19,5 +19,5 @@ module.exports = React.createClass({
         </g>
       </g>
     </svg>;
-  }
+  },
 });

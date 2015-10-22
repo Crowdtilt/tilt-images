@@ -7,9 +7,10 @@ module.exports = React.createClass({
   getDefaultProps: function() {
     return {
       width: 18,
-      height: 13
-    }
+      height: 13,
+    };
   },
+
   render() {
     const classes = classnames('tilt-icon tilt-icon-checkmark', this.props.className);
 
@@ -20,6 +21,6 @@ module.exports = React.createClass({
           <path d="M759,677.419778 L761.248364,675.282444 L765.336,679.168222 L773.928545,671 L776.178545,673.135778 L765.336,683.444444 L759,677.419778 Z" />
         </g>
       </g>
-    </svg>
-  }
+    </svg>;
+  },
 });

@@ -32,7 +32,7 @@ const Platforms = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Platforms;

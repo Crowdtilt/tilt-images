@@ -19,7 +19,7 @@ const Camera = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Camera;

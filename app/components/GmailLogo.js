@@ -19,5 +19,5 @@ module.exports = React.createClass({
         <polygon fill="#F7F5ED" points="3941,250 22713,14168 41608,250 "/>
       </g>
     </svg>;
-  }
+  },
 });

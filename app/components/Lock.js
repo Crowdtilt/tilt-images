@@ -19,7 +19,7 @@ const Lock = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Lock;

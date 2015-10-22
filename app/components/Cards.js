@@ -18,7 +18,7 @@ const Cards = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Cards;

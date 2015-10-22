@@ -23,7 +23,7 @@ const Group = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Group;

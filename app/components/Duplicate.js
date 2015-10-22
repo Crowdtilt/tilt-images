@@ -20,5 +20,5 @@ module.exports = React.createClass({
           transform="translate(10.017857, 7.002737) scale(-1, -1) translate(-10.017857, -7.002737) "/>
       </g>
     </svg>;
-  }
+  },
 });

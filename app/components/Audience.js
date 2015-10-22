@@ -25,7 +25,7 @@ const Audience = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Audience;

@@ -8,6 +8,7 @@
     Setting generic tests
     Normalizing title tags
     Normalizing components to include less nested groups
+    Linting
 
 ## 3.17.2
     Fix Camera component to use props.className

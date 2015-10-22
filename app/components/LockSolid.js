@@ -17,7 +17,7 @@ const LockSolid = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = LockSolid;

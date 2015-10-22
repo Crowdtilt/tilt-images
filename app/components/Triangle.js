@@ -6,14 +6,14 @@ module.exports = React.createClass({
 
   propTypes: {
     width: React.PropTypes.number,
-    height: React.PropTypes.number
+    height: React.PropTypes.number,
   },
 
   getDefaultProps: function() {
     return {
       width: 10,
-      height: 8
-    }
+      height: 8,
+    };
   },
 
   render() {
@@ -29,5 +29,5 @@ module.exports = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });

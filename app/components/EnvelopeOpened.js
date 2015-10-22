@@ -1,5 +1,3 @@
-'use strict';
-
 const React = require('react');
 const classnames = require('classnames');
 
@@ -7,11 +5,7 @@ module.exports = React.createClass({
   displayName: 'EnvelopeOpened',
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-envelope-opened': true,
-      [this.props.className]: !!this.props.className
-    })
+    const classes = classnames('tilt-icon tilt-icon-envelope-opened', this.props.className);
 
     return <svg version="1.1" {...this.props} className={classes} x="0px" y="0px" viewBox="-3 -2 41 41" enableBackground="new -3 -2 41 41">
       <title>EnvelopeOpened</title>
@@ -28,5 +22,5 @@ module.exports = React.createClass({
         </g>
       </g>
     </svg>;
-  }
-})
+  },
+});

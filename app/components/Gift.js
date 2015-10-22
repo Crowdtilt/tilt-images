@@ -1,5 +1,3 @@
-'use strict';
-
 const React = require('react');
 const classnames = require('classnames');
 
@@ -30,5 +28,5 @@ module.exports = React.createClass({
         </g>
       </g>
     </svg>;
-  }
+  },
 });

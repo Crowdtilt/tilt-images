@@ -50,7 +50,7 @@ const components = [
   'TiltLogoTextImage',
 ];
 
-module.exports = components.reduce(function (exports, componentName) {
+module.exports = components.reduce(function(exports, componentName) {
   exports[componentName] = require(`./components/${componentName}`);
   return exports;
 }, {});

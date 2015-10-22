@@ -13,5 +13,5 @@ module.exports = defineSvg('ItemAdd', {
         <path className="tilt-icon-bar" d="M4,9 L12,9 L12,7 L4,7 L4,7 L4,9 L4,9 Z" transform="translate(8.000000, 8.000000) rotate(-90.000000) translate(-8.000000, -8.000000) " />
       </g>
     </svg>;
-  }
+  },
 });

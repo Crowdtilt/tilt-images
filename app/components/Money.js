@@ -26,7 +26,7 @@ const Money = React.createClass({
         </g>
       </svg>
     );
-  }
+  },
 });
 
 module.exports = Money;
