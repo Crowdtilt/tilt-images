@@ -1,4 +1,4 @@
-const components =[
+const components = [
   'AnonymousUser',
   'CopyLink',
   'Gift',
@@ -47,10 +47,10 @@ const components =[
   'FilmStrip',
   'LockSolid',
   'PermissionFriends',
-  'TiltLogoTextImage'
+  'TiltLogoTextImage',
 ];
 
-module.exports = components.reduce(function(exports, componentName) {
+module.exports = components.reduce(function (exports, componentName) {
   exports[componentName] = require(`./components/${componentName}`);
   return exports;
 }, {});

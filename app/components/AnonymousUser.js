@@ -18,5 +18,5 @@ module.exports = React.createClass({
         <g dangerouslySetInnerHTML={{__html: path}} />
       </g>
     </svg>;
-  }
+  },
 });
