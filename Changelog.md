@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.18.0
+    Created SVG Icon helper
+    Added Remove Icon
+    Added Add Icon
+
 ## 3.17.2
     Fix Camera component to use props.className
 
