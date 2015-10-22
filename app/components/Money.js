@@ -5,14 +5,11 @@ const Money = React.createClass({
   displayName: 'Money',
 
   render() {
-    const classes = classnames(
-      'tilt-icon',
-      'tilt-icon-money',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-money', this.props.className);
 
     return (
       <svg className={classes} viewBox="0 0 63 42">
+        <title>Money</title>
         <g className="tilt-icon-main">
           <g transform="translate(-459.000000, -416.000000)">
             <g transform="translate(453.000000, 383.000000)">

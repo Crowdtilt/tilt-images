@@ -5,10 +5,7 @@ const LockSolid = React.createClass({
   displayName: 'LockSolid',
 
   render() {
-    const classes = classnames(
-      'tilt-icon tilt-icon-lock-solid',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-lock-solid', this.props.className);
 
     return (
       <svg className={classes} viewBox="0 0 40 48">

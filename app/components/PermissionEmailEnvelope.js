@@ -7,11 +7,7 @@ module.exports = React.createClass({
   displayName: "PermissionEmailEnvelope",
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-permission-email-envelope': true,
-      [this.props.className]: !!this.props.className
-    });
+    const classes = classnames('tilt-icon tilt-icon-permission-email-envelope', this.props.className);
 
     return <svg {...this.props} className={classes} viewBox="0 0 33 23">
       <title>PermissionEmailEnvelope</title>

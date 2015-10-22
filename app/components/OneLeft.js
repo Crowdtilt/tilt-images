@@ -8,12 +8,9 @@ module.exports = React.createClass({
 
   render() {
 
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-one-left': true,
-      [this.props.className]: !!this.props.className
-    });
-    return <svg {...this.props} className={classes} version="1.1" id="Layer_1" x="0px" y="0px" viewBox="-3 -3 41 41" enableBackground="new -3 -3 41 41">
+    const classes = classnames('tilt-icon tilt-icon-one-left', this.props.className);
+
+    return <svg {...this.props} className={classes} x="0px" y="0px" viewBox="-3 -3 41 41" enableBackground="new -3 -3 41 41">
       <title>OneLeft</title>
       <g className="tilt-icon-main">
         <circle cx="18" cy="18" r="18"></circle>

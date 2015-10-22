@@ -8,6 +8,7 @@ const Cards = React.createClass({
     const classes = classnames('tilt-icon tilt-icon-cards', this.props.className);
     return (
       <svg className={classes} viewBox="0 0 30 30">
+        <title>Cards</title>
         <g className="tilt-icon-main">
           <g transform="translate(-589.000000, -414.000000)" className="tilt-icon-inner">
             <g transform="translate(546.000000, 304.000000)">

@@ -10,21 +10,12 @@ module.exports = React.createClass({
       cx: x,
       cy: y,
     };
-    const classes = classnames({
-      'tilt-logo-inner-circle': true,
-      [`tilt-logo-${ref}`]: true
-    });
+    const classes = classnames(`tilt-logo-inner-circle tilt-logo-${ref}`);
     return <circle className={classes} {...props} r='10' />;
   },
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-logo': true,
-    });
-    if (this.props.className) {
-      classes[this.props.className] = true;
-    }
+    const classes = classnames('tilt-icon tilt-icon-logo', this.props.className);
 
     return <svg className={classes} x='0' y='0' viewBox='0 0 144 144'>
       <title>TiltLogo</title>

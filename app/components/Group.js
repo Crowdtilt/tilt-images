@@ -9,6 +9,7 @@ const Group = React.createClass({
 
     return (
       <svg className={classes} viewBox="0 0 34 30">
+        <title>Group</title>
         <g className="tilt-icon-main" >
           <g transform="translate(-590.000000, -468.000000)" className="tilt-icon-inner">
             <g transform="translate(546.000000, 304.000000)">

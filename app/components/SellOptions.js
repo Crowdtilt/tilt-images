@@ -5,13 +5,10 @@ module.exports = React.createClass({
   displayName: 'SellOptions',
 
   render() {
-    const classes = classnames(
-      'tilt-icon',
-      'tilt-icon-sell-options',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-sell-options', this.props.className);
 
     return (<svg className={classes} viewBox="0 0 44 30">
+      <title>SellOptions</title>
       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g transform="translate(-520.000000, -671.000000)" fill="#00A0D8">
           <g transform="translate(480.000000, 36.000000)">

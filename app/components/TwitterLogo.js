@@ -5,13 +5,10 @@ module.exports = React.createClass({
   displayName: 'TwitterLogo',
 
   render() {
-    const classes = classnames(
-      'tilt-icon',
-      'tilt-icon-twitter-logo',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-twitter-logo', this.props.className);
 
     return <svg className={classes} viewBox="0 0 18 16">
+      <title>TwitterLogo</title>
       <g stroke="none" strokeWidth="1" fill="none">
         <g className="twitter-logo-bird" transform="translate(-1056.000000, -586.000000)">
           <g transform="translate(1028.664153, 576.000000)">

@@ -5,13 +5,10 @@ module.exports = React.createClass({
   displayName: 'FacebookLogo',
 
   render() {
-    const classes = classnames(
-      'tilt-icon',
-      'tilt-icon-facebook-logo',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-facebook-logo', this.props.className);
 
     return <svg className={classes} viewBox="0 0 9 17">
+      <title>FacebookLogo</title>
       <g stroke="none" strokeWidth="1" fill="none">
         <g className="facebook-logo-f-letter" transform="translate(-931.000000, -585.000000)" fill="#00A0D8">
           <g transform="translate(898.664153, 576.000000)">

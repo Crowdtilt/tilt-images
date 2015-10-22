@@ -5,14 +5,11 @@ const Audience = React.createClass({
   displayName: 'Audience',
 
   render() {
-    const classes = classnames(
-      'tilt-icon',
-      'tilt-icon-audience',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-audience', this.props.className);
 
     return (
       <svg className={classes} viewBox="0 0 114 47">
+        <title>Audience</title>
         <g className="tilt-icon-main">
           <g transform="translate(-704.000000, -411.000000)">
             <g transform="translate(453.000000, 383.000000)">

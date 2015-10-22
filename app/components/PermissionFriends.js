@@ -7,11 +7,7 @@ module.exports = React.createClass({
   displayName: 'PermissionFriends',
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-permission-friends': true,
-      [this.props.className]: !!this.props.className
-    });
+    const classes = classnames('tilt-icon tilt-icon-permission-friends', this.props.className);
 
     return <svg {...this.props} className={classes} viewBox="0 0 34 30">
       <title>PermissionFriends</title>

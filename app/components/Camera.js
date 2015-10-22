@@ -8,7 +8,7 @@ const Camera = React.createClass({
     return (
       <svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1"
             className={classnames('tilt-icon tilt-camera', this.props.className)}>
-        <title>camera</title>
+        <title>Camera</title>
         <defs></defs>
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           <g transform="translate(-722.000000, -146.000000)">

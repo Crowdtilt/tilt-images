@@ -4,6 +4,9 @@
     Created SVG Icon helper
     Added Remove Icon
     Added Add Icon
+    Adding circle-ci integration
+    Setting generic tests
+    Normalizing title tags
 
 ## 3.17.2
     Fix Camera component to use props.className

@@ -6,13 +6,10 @@ module.exports = React.createClass({
   displayName: 'TwitterLogo',
 
   render() {
-    const classes = classnames(
-      'tilt-icon',
-      'tilt-icon-gmail-logo',
-      this.props.className
-    );
+    const classes = classnames('tilt-icon tilt-icon-gmail-logo', this.props.className);
 
     return <svg className={classes} version="1.1" viewBox="0 0 45555 33097">
+      <title>GmailLogo</title>
       <g>
         <path fill="#E75A4D" d="M41608 250c2030,0 3691,1661 3691,3691l0 1070 -5128 3663 -17458 12026 -17458 -12148 0 24295 -1314 0c-2030,0 -3691,-1661 -3691,-3691l0 -25214c0,-2030 1661,-3691 3691,-3691l18772 13918 18894 -13918z"/>
         <polygon fill="#E7E4D7" points="5255,8552 5255,32847 40172,32847 40172,8674 22713,20700 "/>

@@ -7,16 +7,13 @@ module.exports = React.createClass({
   displayName: 'Gift',
 
   render() {
-    const classes = classnames({
-      'tilt-icon': true,
-      'tilt-icon-gift': true,
-      [this.props.className]: !!this.props.className
-    });
+    const classes = classnames('tilt-icon tilt-icon-gift', this.props.className);
 
-    return <svg version="1.1" id="Layer_1" {...this.props} className={classes} x="0px" y="0px" viewBox="-4 -3 41 41" enableBackground="new -4 -3 41 41">
+    return <svg version="1.1" {...this.props} className={classes} x="0px" y="0px" viewBox="-4 -3 41 41" enableBackground="new -4 -3 41 41">
+      <title>Gift</title>
       <g transform="translate(-4.000000, -338.000000)">
         <g transform="translate(0.000000, 335.000000)">
-          <rect id="Rectangle-156" fill="#D8D8D8" fillOpacity="0" width="41" height="41">
+          <rect fill="#D8D8D8" fillOpacity="0" width="41" height="41">
           </rect>
           <g transform="translate(4.000000, 4.000000)">
             <rect x="13.6" y="1.7" fill="#00A0D8" width="6.8" height="6.8"/>
