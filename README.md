@@ -28,7 +28,7 @@ This is a collection of icons and images used throughout the tilt websites.
     Becomes
 
     ```
-    <g transform="translate(-10, 60.00000)">
+    <g transform="translate(10, 60.00000)">
       ......
     </g>
     ```
