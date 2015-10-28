@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.1.0
+    Added Fullscreen Icon
+
 ## 4.0.0
     Created SVG Icon helper
     Added Remove Icon
