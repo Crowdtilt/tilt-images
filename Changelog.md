@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.2.0
+    Added Free Icon (no-charge campaign creation)
+
 ## 4.1.0
     Added Fullscreen Icon
 
