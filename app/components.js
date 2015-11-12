@@ -49,7 +49,9 @@ const components = [
   'PermissionFriends',
   'TiltLogoTextImage',
   'FullScreen',
-  'Free'
+  'Free',
+  'ClockMinimal',
+  'Heads',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {
