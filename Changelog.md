@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.0
+    Added ClockMinimal Icon
+    Added Heads Icon
+
 ## 4.2.0
     Added Free Icon (no-charge campaign creation)
 
