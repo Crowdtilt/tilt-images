@@ -1,14 +1,13 @@
-const React = require('react/addons');
-const classnames = require('classnames');
+const React = require('react');
+const { defineSvg } = require('../defineSvg');
 
-module.exports = React.createClass({
-  displayName: 'GroupCircled',
+module.exports = defineSvg('GroupCircled', {
+  className: 'tilt-icon-group-circled',
+
   propTypes: {
     maskId: React.PropTypes.string,
     isLocked: React.PropTypes.bool,
   },
-
-  mixins: [React.addons.PureRenderMixin],
 
   getDefaultProps() {
     return {
@@ -18,11 +17,9 @@ module.exports = React.createClass({
   },
 
   render() {
-    const { maskId, className, isLocked } = this.props;
+    const { maskId, isLocked } = this.props;
 
-    const classes = classnames('tilt-icon tilt-icon-group-circled', className);
-
-    return <svg className={classes} viewBox="0 0 72 74">
+    return <svg className={this.getClassNames()} viewBox="0 0 72 74">
       <title>GroupCircled</title>
       <g>
           <g transform="translate(1.000000, 1.000000)">

@@ -1,5 +1,5 @@
-const React = require('react/addons');
-const TestUtils = React.addons.TestUtils;
+const React = require('react');
+const TestUtils = require('react-addons-test-utils');
 const TiltImages = require('../../app/components');
 
 describe('TiltImages', function () {

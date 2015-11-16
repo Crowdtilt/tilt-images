@@ -1,19 +1,15 @@
-'use strict';
+const webpack = require('webpack');
+const webpackDevMiddleware = require('webpack-dev-middleware');
+const config = require('./webpack.config');
+const express = require('express');
+const proxy = require('proxy-middleware');
+const url = require('url');
+const { match, RoutingContext } = require('react-router');
+const routes = require('./server/routes');
+const React = require('react');
+const { renderToString } = require('react-dom/server');
 
-require('node-jsx').install({extension: '.jsx'});
-require('babel/register');
-
-var webpack = require('webpack'),
-    webpackDevMiddleware = require('webpack-dev-middleware'),
-    config = require('./webpack.config'),
-    express = require('express'),
-    proxy = require('proxy-middleware'),
-    url = require('url'),
-    Router = require('react-router'),
-    routes = require('./server/routes'),
-    React = require('react');
-
-var app = express();
+const app = express();
 
 app.use('/favicon.ico', function(req,res) {
     res.sendStatus(404);
@@ -28,10 +24,18 @@ app.use(webpackDevMiddleware(webpack(config), {
 
 app.set('views', __dirname + '/server/views');
 app.use(function(req, res){
-    Router.run(routes, req.url, function(Handler){
-        var content = React.renderToString(React.createElement(Handler));
-        res.render('index.ejs', {content: content});
-    });
+  match({ routes, location: req.url }, (error, redirectLocation, renderProps) => {
+    if (error) {
+      res.send(500, error.message)
+    } else if (redirectLocation) {
+      res.redirect(302, redirectLocation.pathname + redirectLocation.search)
+    } else if (renderProps) {
+      const content = renderToString(<RoutingContext {...renderProps} />);
+      res.render('index.ejs', {content: content});
+    } else {
+      res.send(404, 'Not found')
+    }
+  });
 });
 
 app.listen(7001, function() {
