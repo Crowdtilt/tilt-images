@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.4.0
+    Added FacebookVerified Icon
+    Added Refund Icon
+    Added SendMessageEnvelope Icon
+
 ## 4.3.0
     Added ClockMinimal Icon
     Added Heads Icon

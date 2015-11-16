@@ -52,6 +52,9 @@ const components = [
   'Free',
   'ClockMinimal',
   'Heads',
+  'SendMessageEnvelope',
+  'FacebookVerified',
+  'Refund',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {
