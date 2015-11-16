@@ -1,0 +1,10 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-send-message {
+  height: 50px;
+  width: 50px;
+
+  .tilt-icon-main {
+    fill: $tilt-gray;
+  }
+}
