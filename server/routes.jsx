@@ -1,9 +1,9 @@
-var React = require('react');
-var Router = require('react-router');
-var TiltIcons = require("../app");
-var Route = Router.Route;
+const React = require('react');
+const Router = require('react-router');
+const TiltIcons = require("../app");
+const Route = Router.Route;
 
-var App = React.createClass({
+const App = React.createClass({
   render: function() {
     const icons = Object.keys(TiltIcons).sort().map(function(iconName) {
       const Klass = TiltIcons[iconName];
@@ -30,4 +30,4 @@ var App = React.createClass({
   }
 });
 
-module.exports = <Route name="app" path="/" handler={App} />;
+module.exports = <Route name="app" path="/" component={App} />;

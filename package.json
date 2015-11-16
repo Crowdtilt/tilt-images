@@ -1,11 +1,11 @@
 {
   "name": "tilt-images",
   "repository": "git@github.com:Crowdtilt/tilt-images.git",
-  "version": "4.4.1",
+  "version": "5.0.0",
   "description": "SVG images used on the tilt websites",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "babel-node server.js",
     "test": "npm run unit-test",
     "unit-test": "karma start karma.conf.js --singleRun true"
   },
@@ -47,13 +47,18 @@
     "node-jsx": "^0.13.2",
     "phantomjs": "^1.9.16",
     "proxy-middleware": "^0.11.0",
-    "react": "^0.13.2",
-    "react-router": "^0.13.2",
+    "react": "^0.14.2",
+    "react-addons-test-utils": "^0.14.2",
+    "react-router": "^1.0.0-rc3",
     "sass-loader": "0.3.1",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0",
     "style-loader": "^0.12.3",
     "webpack": "^1.8.10",
     "webpack-dev-middleware": "^1.0.11"
+  },
+  "dependencies": {
+    "react-addons-pure-render-mixin": "^0.14.2",
+    "react-dom": "^0.14.2"
   }
 }

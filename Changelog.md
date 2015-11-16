@@ -1,5 +1,8 @@
 # Changelog
 
+## 5.0.0
+    Upgrade React dependency to 0.14.2
+
 ## 4.4.0
     Added FacebookVerified Icon
     Added Refund Icon

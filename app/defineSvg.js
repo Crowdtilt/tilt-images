@@ -1,9 +1,10 @@
-const React = require('react/addons');
+const React = require('react');
+const PureRenderMixin = require('react-addons-pure-render-mixin');
 const classnames = require('classnames');
 
 export function defineSvg(displayName, definition) {
   return React.createClass(Object.assign({
-    mixins: [React.addons.PureRenderMixin],
+    mixins: [PureRenderMixin],
 
     displayName,
     getClassNames() {
