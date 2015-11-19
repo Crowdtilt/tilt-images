@@ -1,5 +1,8 @@
 # Changelog
 
+## 5.1.0
+    Added Tickets Icon
+
 ## 5.0.0
     Upgrade React dependency to 0.14.2
 
