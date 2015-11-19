@@ -1,0 +1,21 @@
+@import "./support/colors";
+
+.tilt-icon.tilt-icon-tickets {
+  max-width: 46px;
+  max-height: 46px;
+
+  .tilt-icon-main {
+    fill-rule: evenodd;
+    stroke-width: 1;
+    stroke: none;
+    .tilt-icon-inner-1 {
+    	fill: $tilt-blue;
+    }
+    .tilt-icon-inner-2 {
+    	fill: white;
+    }
+    .tilt-icon-inner-3 {
+    	fill: $tilt-blue;
+    }
+  }
+}

@@ -21,6 +21,7 @@ const components = [
   'Duplicate',
   'GroupCircled',
   'OneLeft',
+  'Tickets',
   'Star',
   'WhatsAppLogo',
   'Checkmark',
