@@ -1,11 +1,10 @@
 const React = require('react');
-const Router = require('react-router');
-const TiltIcons = require("../app");
-const Route = Router.Route;
+const { Route } = require('react-router');
+const TiltIcons = require('../app/components');
 
 const App = React.createClass({
-  render: function() {
-    const icons = Object.keys(TiltIcons).sort().map(function(iconName) {
+  render() {
+    const icons = Object.keys(TiltIcons).sort().map(iconName => {
       const Klass = TiltIcons[iconName];
       return [
         <pre>TiltIcons.{iconName}</pre>,

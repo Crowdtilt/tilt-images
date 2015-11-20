@@ -4,7 +4,8 @@ module.exports = {
     target: "web",
     entry: {
         'tilt-images': './app/index.js',
-        'stylesheets': './app/stylesheets.js'
+        'stylesheets': './app/stylesheets.js',
+        'server': './server/init.js',
     },
     output: {
         path: require('path').resolve('./assets'),
