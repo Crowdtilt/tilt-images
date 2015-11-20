@@ -1,0 +1,10 @@
+@import "./support/colors";
+
+.tilt-icon.tilt-icon-plus-thin {
+  width: 36px;
+  height: 36px;
+
+  .tilt-icon-main {
+    fill: $tilt-blue;
+  }
+}

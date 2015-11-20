@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.0
+    Added PlusThin Icon
+    Added UserChecked Icon
+
 ## 5.1.1
     Demo server now loads JavaScript from the client-side, allowing development without restart (!!)
 

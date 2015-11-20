@@ -56,6 +56,8 @@ const components = [
   'SendMessageEnvelope',
   'FacebookVerified',
   'Refund',
+  'PlusThin',
+  'UserChecked',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {

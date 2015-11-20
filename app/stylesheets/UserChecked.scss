@@ -1,0 +1,10 @@
+@import "./support/colors";
+
+.tilt-icon.tilt-icon-user-checked {
+  width: 60px;
+  height: 60px;
+
+  .tilt-icon-main {
+    fill: $tilt-blue;
+  }
+}
