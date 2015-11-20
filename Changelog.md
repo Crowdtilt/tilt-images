@@ -1,5 +1,8 @@
 # Changelog
 
+## 5.1.1
+    Demo server now loads JavaScript from the client-side, allowing development without restart (!!)
+
 ## 5.1.0
     Added Tickets Icon
 
