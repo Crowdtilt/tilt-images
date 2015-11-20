@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
+const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.config');
 const express = require('express');
 const proxy = require('proxy-middleware');
@@ -15,6 +16,7 @@ app.use('/favicon.ico', function(req,res) {
     res.sendStatus(404);
 });
 
+app.use('/assets', proxy(url.parse('http://localhost:7002/assets')));
 app.use(webpackDevMiddleware(webpack(config), {
     contentBase: __dirname,
     publicPath: '/assets/',
@@ -36,6 +38,17 @@ app.use(function(req, res){
       res.send(404, 'Not found')
     }
   });
+});
+
+const server = new WebpackDevServer(webpack(config), {
+  contentBase: __dirname,
+  publicPath: '/assets/',
+  quiet: true,
+  stats: { colors: true }
+});
+
+server.listen(7002, 'localhost', function() {
+  console.info('Webpack server listening on 7002');
 });
 
 app.listen(7001, function() {
