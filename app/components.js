@@ -58,6 +58,7 @@ const components = [
   'Refund',
   'PlusThin',
   'UserChecked',
+  'MoneyStack',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {
