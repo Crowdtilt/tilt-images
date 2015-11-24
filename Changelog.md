@@ -1,5 +1,8 @@
 # Changelog
 
+## 5.3.0
+    Added MoneyStack Icon
+
 ## 5.2.0
     Added PlusThin Icon
     Added UserChecked Icon

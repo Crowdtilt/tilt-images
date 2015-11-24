@@ -1,0 +1,10 @@
+@import "./support/colors";
+
+.tilt-icon.tilt-icon-money-stack {
+  width: 38px;
+  height: 26px;
+
+  .tilt-icon-main {
+    fill: $tilt-blue;
+  }
+}
