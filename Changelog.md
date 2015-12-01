@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.0.0
+    Parameterized the GroupCirlced Icon to accept locked / solid states.
+
 ## 5.3.0
     Added MoneyStack Icon
 
