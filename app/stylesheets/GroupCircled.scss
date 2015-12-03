@@ -1,32 +1,76 @@
 .tilt-icon.tilt-icon-group-circled {
-  @import "support/colors";
   width: 72px;
   height: 74px;
+  
+  $person-stroke: 2%;
+  $circle-stroke: 4%;
+  $lock-circle-stroke: 7%;
+
   mask {
-    fill: #FFF;
+    fill: white;
   }
 
-  .tilt-icon-border {
-    stroke: $tilt-blue;
-    stroke-width: 2px;
-    fill: transparent;
-  }
-
-  .tilt-icon-main {
-    stroke: $tilt-blue;
-    stroke-width: 0.5;
-    fill: $tilt-blue;
+  .group-circle-main {
+    stroke: currentColor;
+    stroke-width: $circle-stroke;
+    fill: none;
   }
 
   .tilt-icon-group-circled-lock {
     ellipse {
-      stroke: #FFF;
-      stroke-width: 2px;
-      fill: $tilt-blue;
+      stroke: white;
+      stroke-width: $lock-circle-stroke;
+      fill: currentColor;
     }
 
     path {
-      fill: #FFF;
+      fill: white;
+    }
+  }
+
+  .person {
+    fill: white;
+    stroke-width: $person-stroke;
+    stroke: currentColor;
+  }
+
+  &.solid {
+    .tilt-icon-group-circled-lock {
+      ellipse {
+        fill: currentColor;
+        stroke: white;
+      }
+      path {
+        stroke: none;
+      }
+    }
+
+    .group-circle-main {
+      stroke: currentColor; 
+    }
+
+    .person {
+      stroke-width: $person-stroke;
+      fill: currentColor;
+    }
+
+    .person-left, .person-right {
+      stroke: currentColor;
+    }
+
+    .person-front {
+      stroke: white;
+      fill: currentColor;
+    }
+
+    .tilt-icon-main {
+      fill: currentColor;
+      stroke: currentColor;
+    }
+
+    .tilt-icon-border {
+      fill: white;
+      stroke: none;
     }
   }
 }
