@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.0.1
+    Updating GroupCirlced Icon viewbox
+
 ## 6.0.0
     Parameterized the GroupCirlced Icon to accept locked / solid states.
 

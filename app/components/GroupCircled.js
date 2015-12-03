@@ -21,7 +21,7 @@ module.exports = defineSvg('GroupCircled', {
     const { maskId, isLocked } = this.props;
 
     return (
-      <svg className={this.getClassNames()} viewBox="0 0 32 31">
+      <svg className={this.getClassNames()} viewBox="0 0 30 30">
         <title>GroupCircled</title>
         <g className="tilt-icon-main">
           <g>
