@@ -1,10 +1,14 @@
 # Changelog
 
+## 6.1.0
+    Removing auto-generated maskId on GroupCircled
+    Adding styleable background element on GroupCircled
+
 ## 6.0.1
-    Updating GroupCirlced Icon viewbox
+    Updating GroupCircled Icon viewbox
 
 ## 6.0.0
-    Parameterized the GroupCirlced Icon to accept locked / solid states.
+    Parameterized the GroupCircled Icon to accept locked / solid states.
 
 ## 5.3.0
     Added MoneyStack Icon
