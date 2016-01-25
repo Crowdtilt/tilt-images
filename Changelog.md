@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.2.0
+    Added CalendarRefresh Icon
+    Added ThumbUp Icon
+    Added ThumbDown Icon
+
 ## 6.1.0
     Removing auto-generated maskId on GroupCircled
     Adding styleable background element on GroupCircled

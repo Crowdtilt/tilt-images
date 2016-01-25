@@ -59,6 +59,9 @@ const components = [
   'PlusThin',
   'UserChecked',
   'MoneyStack',
+  'CalendarRefresh',
+  'ThumbUp',
+  'ThumbDown',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {
