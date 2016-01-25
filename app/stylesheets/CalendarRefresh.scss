@@ -1,0 +1,11 @@
+@import 'support/colors';
+
+.tilt-icon-calendar-refresh {
+  width: 50px;
+  height: 46px;
+
+  .tilt-icon-main {
+    stroke: $tilt-blue;
+    fill: $tilt-blue;
+  }
+}
