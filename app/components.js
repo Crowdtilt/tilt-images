@@ -62,6 +62,11 @@ const components = [
   'CalendarRefresh',
   'ThumbUp',
   'ThumbDown',
+  'FormattingBold',
+  'FormattingBullets',
+  'FormattingItalic',
+  'FormattingNumbers',
+  'FormattingUnderline',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {

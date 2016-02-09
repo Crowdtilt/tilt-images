@@ -1,0 +1,10 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-formatting-italic {
+  height: 9px;
+  width: 5px;
+
+  .tilt-icon-main {
+    fill: $tilt-medium;
+  }
+}
