@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.3.0
+    Added FormattingBold Icon
+    Added FormattingBullets Icon
+    Added FormattingItalic Icon
+    Added FormattingNumbers Icon
+    Added FormattingUnderline Icon
+
 ## 6.2.0
     Added CalendarRefresh Icon
     Added ThumbUp Icon
