@@ -67,6 +67,12 @@ const components = [
   'FormattingItalic',
   'FormattingNumbers',
   'FormattingUnderline',
+  'TShirt',
+  'Bullhorn',
+  'UserGroup',
+  'Bell',
+  'BellAngled',
+  'EnvelopeMoney',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {
