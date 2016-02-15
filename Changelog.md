@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.4.0
+    Added TShirt Icon
+    Added Bullhorn Icon
+    Added UserGroup Icon
+    Added Bell Icon
+    Added BellAngled Icon
+    Added EnvelopeMoney Icon
+
 ## 6.3.0
     Added FormattingBold Icon
     Added FormattingBullets Icon
