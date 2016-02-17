@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.5.0
+    Added CheckmarkThin Icon
+
 ## 6.4.0
     Added TShirt Icon
     Added Bullhorn Icon
