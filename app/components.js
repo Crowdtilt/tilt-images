@@ -74,6 +74,10 @@ const components = [
   'BellAngled',
   'EnvelopeMoney',
   'CheckmarkThin',
+  'Envelope',
+  'Download',
+  'DuplicateEmpty',
+  'Student',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {

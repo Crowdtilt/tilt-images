@@ -1,5 +1,11 @@
 # Changelog
 
+## 6.6.0
+    Added Student Icon
+    Added DuplicateEmpty Icon
+    Added Download Icon
+    Added Envelope Icon
+
 ## 6.5.0
     Added CheckmarkThin Icon
 
