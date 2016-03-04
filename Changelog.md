@@ -1,5 +1,11 @@
 # Changelog
 
+## 6.7.0
+    Added CheckmarkCircle Icon
+    Added Megaphone Icon
+    Added PresentationChart Icon
+    Added Stopwatch Icon
+
 ## 6.6.0
     Added Student Icon
     Added DuplicateEmpty Icon
