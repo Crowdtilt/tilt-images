@@ -78,6 +78,10 @@ const components = [
   'Download',
   'DuplicateEmpty',
   'Student',
+  'CheckmarkCircle',
+  'Megaphone',
+  'PresentationChart',
+  'Stopwatch',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {

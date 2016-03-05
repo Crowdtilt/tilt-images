@@ -1,0 +1,16 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-checkmark-circle {
+  height: 30px;
+  width: 30px;
+
+  .tilt-icon-main {
+    fill: white;
+
+    .checkmark-circle-background {
+      fill: $tilt-blue;
+      stroke: white;
+      stroke-width: 2;
+    }
+  }
+}
