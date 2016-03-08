@@ -6,11 +6,11 @@ module.exports = defineSvg('CheckmarkCircle', {
 
   render() {
     return (
-      <svg className={this.getClassNames()} viewBox="0 0 32 32">
+      <svg {...this.props} className={this.getClassNames()} viewBox="0 0 32 32">
         <title>CheckmarkCircle</title>
         <g className="tilt-icon-main">
           <circle className="checkmark-circle-background" cx="15" cy="15" r="14"></circle>
-          <path className="checkmark-check" d="M19.0611447,9.2818641 L11.4628893,16.8801195 L12.7653809,16.8801195 L9.31162845,13.4263671 L8.00913682,14.7288587 L11.4628893,18.1826112 L12.1141351,18.833857 L12.7653809,18.1826112 L20.3636364,10.5843557 L19.0611447,9.2818641 L19.0611447,9.2818641 Z"></path>
+          <path className="checkmark-check" d="m19.75076,10.31629l-7.59825,7.59826l1.30249,0l-3.45375,-3.45375l-1.30249,1.30249l3.45375,3.45375l0.65125,0.65125l0.65124,-0.65125l7.59826,-7.59825l-1.3025,-1.3025l0,0z"></path>
         </g>
       </svg>
     );

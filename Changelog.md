@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.7.1
+    Updating CheckmarkCircle Icon
+
 ## 6.7.0
     Added CheckmarkCircle Icon
     Added Megaphone Icon
