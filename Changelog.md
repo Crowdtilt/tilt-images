@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.8.0
+    Added SpeechBubble Icon
+
 ## 6.7.1
     Updating CheckmarkCircle Icon
 
