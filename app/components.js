@@ -82,6 +82,7 @@ const components = [
   'Megaphone',
   'PresentationChart',
   'Stopwatch',
+  'SpeechBubble',
 ];
 
 module.exports = components.reduce(function(exports, componentName) {
