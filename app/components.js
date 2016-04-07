@@ -1,5 +1,6 @@
 const components = [
   'AnonymousUser',
+  'BankIcon',
   'CopyLink',
   'Gift',
   'LuggageCart',
