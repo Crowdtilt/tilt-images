@@ -1,6 +1,6 @@
 # Changelog
 
-## 6.9.0
+## 6.9.1
     Added Bank Icon
 
 ## 6.8.0
