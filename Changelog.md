@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.9.0
+    Added Bank Icon
+
 ## 6.8.0
     Added SpeechBubble Icon
 
