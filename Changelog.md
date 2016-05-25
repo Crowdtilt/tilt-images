@@ -1,8 +1,5 @@
 # Changelog
 
-## 7.0.0
-    Changes "main" entry point to eliminate need for webpack aliases
-
 ## 6.9.1
     Added Bank Icon
 

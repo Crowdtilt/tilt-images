@@ -1,9 +1,9 @@
 {
   "name": "tilt-images",
   "repository": "git@github.com:Crowdtilt/tilt-images.git",
-  "version": "7.0.0",
+  "version": "6.9.1",
   "description": "SVG images used on the tilt websites",
-  "main": "app/index.js",
+  "main": "server.js",
   "scripts": {
     "start": "babel-node server.js",
     "test": "npm run unit-test",
