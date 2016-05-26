@@ -3,6 +3,7 @@ const components = [
   'BankIcon',
   'CopyLink',
   'Gift',
+  'GiftLight',
   'LuggageCart',
   'Platforms',
   'Triangle',

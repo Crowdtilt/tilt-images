@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.9.2
+    Added Gift Light Icon
+
 ## 6.9.1
     Added Bank Icon
 
