@@ -1,10 +1,13 @@
+@import "./support/colors";
+
 .tilt-icon.tilt-icon-phone {
 
   height: 24px;
   width: 14px;
-  
+
   .tilt-icon-main {
-    fill: #00A0D8;
+    fill-rule: evenodd;
+    fill: $tilt-blue;
     stroke: none;
     stroke-width: 1;
   }
