@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.10.0
+    Added Phone Icon
+
 ## 6.9.2
     Added Gift Light Icon
 
