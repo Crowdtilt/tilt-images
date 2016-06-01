@@ -1,6 +1,6 @@
 # Changelog
 
-## 6.9.3
+## 6.10.0
     Added Phone Icon
 
 ## 6.9.2
