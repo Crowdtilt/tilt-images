@@ -16,14 +16,14 @@ This is a collection of icons and images used throughout the tilt websites.
 5. Remove all ids and unused attributes. Style attributes will live in the CSS file.
 6. OPTIONAL Consolidate `transforms` into a single group
     Exporting files from Sketch often creates additional `<g>` elements with a translate transform. Often times the transforms can be added together into a single transform in a single `g` element and the empty `g`s can be removed.
-    
+
     ```
     <g transform="translate(-10.00000, 20.00000)">
       <g transform="translate(20.00000, 40.0000)">
         ......
       </g>
     </g>
-    ``` 
+    ```
 
     Becomes
 

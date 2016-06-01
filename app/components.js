@@ -25,6 +25,7 @@ const components = [
   'OneLeft',
   'Tickets',
   'Star',
+  'Phone',
   'WhatsAppLogo',
   'Checkmark',
   'EnvelopeFlying',
