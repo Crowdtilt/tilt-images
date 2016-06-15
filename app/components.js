@@ -84,6 +84,7 @@ const components = [
   'CheckmarkCircle',
   'Megaphone',
   'PresentationChart',
+  'Ticket',
   'Stopwatch',
   'SpeechBubble',
 ];

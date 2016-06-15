@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.11.0
+    Added Ticket Icon
+
 ## 6.10.0
     Added Phone Icon
 
