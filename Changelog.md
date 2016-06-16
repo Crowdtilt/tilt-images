@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.12.0
+    Added CrossCircle Icon
+
 ## 6.11.0
     Added Ticket Icon
 
