@@ -1,0 +1,20 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-cross-circle {
+  height: 30px;
+  width: 30px;
+
+  .tilt-icon-main {
+    fill: white;
+    fill-rule: evenodd;
+    stroke-width: 1;
+
+    .cross {
+      fill: $tilt-blue;
+      stroke: none;
+    }
+    .circle {
+      fill: $tilt-blue;
+    }
+  }
+}
