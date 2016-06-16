@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.13.0
+    Added CheckmarkCircleLight Icon
+
 ## 6.12.0
     Added CrossCircle Icon
 
