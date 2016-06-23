@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.14.0
+    Added Gif Icon
+
 ## 6.13.0
     Added CheckmarkCircleLight Icon
 

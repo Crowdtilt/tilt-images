@@ -4,6 +4,7 @@ const components = [
   'CopyLink',
   'CheckmarkCircleLight',
   'CrossCircle',
+  'Gif',
   'Gift',
   'GiftLight',
   'LuggageCart',
