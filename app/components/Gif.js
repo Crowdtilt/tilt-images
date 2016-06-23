@@ -4,12 +4,11 @@ const classnames = require('classnames');
 
 module.exports = defineSvg('Gif', {
   className: 'tilt-icon-gif',
-  maskId: 'random-mask-id-hopefully-never-used-before',
 
   render() {
     return (
       <svg className={this.getClassNames()} viewBox="0 0 24 18">
-        <title>GIF</title>
+        <title>Gif</title>
         <g id="icon-gif">
           <rect className="gif-rectangle" rx="2"></rect>
           <g transform="translate(4.000000, 5.299988)">
