@@ -1,0 +1,15 @@
+@import "./support/colors";
+.tilt-icon.tilt-icon-gif {
+
+  height: 18px;
+  width: 24px;
+  fill: white;
+
+  .gif-rectangle {
+    height: 18px;
+    width: 24px;
+    border-radius: 2px;
+    fill: $tilt-blue;
+  }
+
+}
