@@ -4,7 +4,7 @@ const classnames = require('classnames');
 
 module.exports = defineSvg('Gif', {
   className: 'tilt-icon-gif',
-
+  
   render() {
     return (
       <svg className={this.getClassNames()} viewBox="0 0 24 18">
