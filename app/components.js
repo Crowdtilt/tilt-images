@@ -1,6 +1,7 @@
 const components = [
   'AnonymousUser',
   'BankIcon',
+  'CameraNew',
   'CopyLink',
   'CheckmarkCircleLight',
   'CrossCircle',
