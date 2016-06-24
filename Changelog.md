@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.15.0
+    Added new Camera Icon
+
 ## 6.14.0
     Added Gif Icon
 
