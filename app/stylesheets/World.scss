@@ -1,0 +1,9 @@
+@import "./support/colors";
+.tilt-icon.tilt-icon-world {
+  height: 11px;
+  width: 11px;
+
+  .icon-group {
+    fill: $tilt-gray;
+  }
+}

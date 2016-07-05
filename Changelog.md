@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.16.0
+    Added new World Icon
+
 ## 6.15.0
     Added new Camera Icon
 
