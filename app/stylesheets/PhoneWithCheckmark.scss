@@ -1,0 +1,18 @@
+@import "./support/colors";
+
+.tilt-icon.tilt-icon-phone-with-checkmark {
+  height: 40px;
+  width: 26px;
+  fill: $tilt-blue;
+
+  .tilt-icon-main {
+    stroke: none;
+    stroke-width: 1;
+  }
+
+  .checkmark {
+    fill: none;
+    stroke-width: 2;
+    stroke: $tilt-blue;
+  }
+}
