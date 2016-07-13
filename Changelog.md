@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.17.0
+    Added PhoneWithCheckmark Icon
+
 ## 6.16.0
     Added new World Icon
 
