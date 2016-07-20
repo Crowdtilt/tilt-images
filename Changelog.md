@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.18.0
+    Added Limited Quantity Icon
+
 ## 6.17.0
     Added Phone With Checkmark Icon
 

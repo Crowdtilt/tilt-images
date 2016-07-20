@@ -26,6 +26,7 @@ const components = [
   'GroupSolid',
   'ItemAdd',
   'ItemRemove',
+  'LimitedQuantity',
   'LuggageCart',
   'MembersSolid',
   'Money',

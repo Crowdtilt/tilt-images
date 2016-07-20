@@ -1,0 +1,17 @@
+@import "./support/colors";
+
+.tilt-icon.tilt-icon-limited-quantity {
+  fill: $tilt-blue;
+  height: 30px;
+  width: 30px;
+
+  .tilt-icon-main {
+    stroke: none;
+    stroke-width: 1;
+    fill-rule: evenodd;
+  }
+
+  .cross {
+    fill: #FFF;
+  }
+}
