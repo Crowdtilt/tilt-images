@@ -35,3 +35,5 @@ This is a collection of icons and images used throughout the tilt websites.
 
 7. Create css file in app/stylesheets
 8. Add the icon to app/index.js
+
+Note: If you are having any stylesheet issues it might be as a result of having the new NPM version. NPM 3+ is not supported yet please revert to NPM 2 to use this repository.
