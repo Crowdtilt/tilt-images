@@ -1,5 +1,8 @@
 # Changelog
 
+## 6.19.0
+    Added RequestSendPhone and SplitCost Icon
+
 ## 6.18.0
     Added Limited Quantity Icon
 

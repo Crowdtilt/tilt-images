@@ -1,8 +1,10 @@
+@import "support/colors";
+
 .tilt-icon.tilt-icon-checkmark-thin {
   height: 19px;
   width: 25px;
 
   .tilt-icon-main {
-    fill: #CFD6DC;
+    fill: $tilt-medium-gray;
   }
 }
