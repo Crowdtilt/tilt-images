@@ -1,6 +1,7 @@
 const React = require('react');
 const TestUtils = require('react-addons-test-utils');
 const TiltImages = require('../../app/components');
+import ReactDOM from 'react-dom';
 
 describe('TiltImages', function () {
   Object.keys(TiltImages).forEach(function (componentName) {
@@ -8,7 +9,7 @@ describe('TiltImages', function () {
       it('should render without error', function () {
         const Component = TiltImages[componentName];
         const e = TestUtils.renderIntoDocument(<Component />);
-        const text = React.findDOMNode(e).querySelector('title').textContent;
+        const text = ReactDOM.findDOMNode(e).querySelector('title').textContent;
         expect(text).to.equal(componentName);
       });
     });
