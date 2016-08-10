@@ -1,5 +1,8 @@
 # Changelog
 
+## 7.0.0
+    Supports new React Version
+
 ## 6.19.0
     Added RequestSendPhone and SplitCost Icon
 
