@@ -1,5 +1,5 @@
-const React = require('react');
-const { defineSvg } = require('../defineSvg');
+import React from 'react';
+import { defineSvg } from '../defineSvg';
 
 module.exports = defineSvg('DuplicateEmpty', {
   className: 'tilt-icon-duplicate-empty',

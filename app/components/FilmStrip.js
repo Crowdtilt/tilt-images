@@ -1,5 +1,5 @@
-const React = require('react');
-const classnames = require('classnames');
+import React from 'react';
+import classnames from 'classnames';
 
 const FilmStrip = React.createClass({
   displayName: 'FilmStrip',

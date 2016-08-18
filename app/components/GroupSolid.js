@@ -1,12 +1,12 @@
-const React = require('react');
-const classnames = require('classnames');
+import React from 'react';
+import classnames from 'classnames';
 
 module.exports = React.createClass({
   displayName: 'GroupSolid',
 
   render() {
     const classes = classnames('tilt-icon tilt-icon-group-solid', this.props.className);
-    return <svg className={classes} x="0px" y="0px" viewBox="0 0 24 24" enable-background="new 0 0 24 24">
+    return <svg className={classes} x="0px" y="0px" viewBox="0 0 24 24" enableBackground="new 0 0 24 24">
       <title>GroupSolid</title>
       <g className="tilt-icon-main" >
         <path d="M9,9c0-1.7,1.3-3,3-3s3,1.3,3,3c0,1.7-1.3,3-3,3S9,10.7,9,9z M12,14c-4.6,0-6,3.3-6,3.3V19h12v-1.7C18,17.3,16.6,14,12,14z" />

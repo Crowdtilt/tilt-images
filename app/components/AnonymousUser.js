@@ -1,5 +1,5 @@
-const React = require('react');
-const classnames = require('classnames');
+import React from 'react';
+import classnames from 'classnames';
 
 module.exports = React.createClass({
   displayName: 'AnonymousUser',
@@ -10,7 +10,7 @@ module.exports = React.createClass({
 
     return <svg className={classes} viewBox="0 0 50 50">
       <title>AnonymousUser</title>
-      <g stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
+      <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <mask id="mask-2" fill="white">
           <circle cx="25" cy="25" r="25" />
         </mask>

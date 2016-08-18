@@ -1,6 +1,6 @@
-const React = require('react');
-const { Route } = require('react-router');
-const TiltIcons = require('../app/components');
+import React from 'react';
+import { Route } from 'react-router';
+import TiltIcons from '../app/components';
 
 const App = React.createClass({
   render() {

@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 const COLOR_BLUE = '#00A0DB';
 const ORIGINAL_IMAGE_HEIGHT = 216.5;
 const ORIGINAL_IMAGE_WIDTH = 525.7;

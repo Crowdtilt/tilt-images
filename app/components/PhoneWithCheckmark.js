@@ -1,6 +1,6 @@
-const React = require('react');
-const { defineSvg } = require('../defineSvg');
-const classnames = require('classnames');
+import React from 'react';
+import { defineSvg } from '../defineSvg';
+import classnames from 'classnames';
 
 module.exports = defineSvg('PhoneWithCheckmark', {
   className: 'tilt-icon-phone-with-checkmark',
