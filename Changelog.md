@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.0
+    Fixes GroupCircled bleed issues.  You should no longer pass a maskId into 
+    groupCircled as a prop.
+    
+    Changes all require statements to import statements to align with ES6
+
 ## 7.0.0
     Supports new React Version
 
