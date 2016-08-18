@@ -1,6 +1,6 @@
-const React = require('react');
-const classnames = require('classnames');
-const { defineSvg } = require('../defineSvg');
+import React from 'react';
+import classnames from 'classnames';
+import { defineSvg } from '../defineSvg';
 
 module.exports = defineSvg('SplitCost', {
   className: 'tilt-icon-split-cost',

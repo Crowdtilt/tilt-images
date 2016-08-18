@@ -1,5 +1,5 @@
-const React = require('react');
-const { defineSvg } = require('../defineSvg');
+import React from 'react';
+import { defineSvg } from '../defineSvg';
 
 module.exports = defineSvg('CheckmarkCircleLight', {
   className: 'tilt-icon-checkmark-circle-light',
