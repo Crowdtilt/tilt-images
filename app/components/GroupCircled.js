@@ -28,3 +28,8 @@ export default function GroupCircled({ isLocked, className }) {
     </g>
   </svg>;
 }
+
+GroupCircled.propTypes = {
+  isLocked: React.PropTypes.bool,
+  className: React.PropTypes.string,
+};
