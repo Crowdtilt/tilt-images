@@ -6,7 +6,7 @@ module.exports = defineSvg('Bank', {
 
   render() {
     return (
-      <svg className={this.getClassNames() } viewBox="0 0 37 35">
+      <svg className={this.getClassNames()} viewBox="0 0 37 35">
         <title>BankIcon</title>
         <g className="tilt-icon-main">
           <g id="4" transform="translate(-837.000000, -531.000000)">

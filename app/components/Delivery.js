@@ -1,14 +1,12 @@
 import React from 'react';
-import classnames from 'classnames';
+import { defineSvg } from '../defineSvg';
 
-module.exports = React.createClass({
-  displayName: 'Delivery',
+module.exports = defineSvg('Delivery', {
+  className: 'tilt-icon-delivery',
 
   render() {
-    const classes = classnames('tilt-icon tilt-icon-delivery', this.props.className);
-
     return (
-      <svg version="1.1" {...this.props} className={classes} x="0px" y="0px" viewBox="0 0 54 56">
+      <svg {...this.props} className={this.getClassNames()} viewBox="0 0 54 56">
         <title>Delivery</title>
         <g className="tilt-icon-main">
           <g className="tilt-icon-inner">
