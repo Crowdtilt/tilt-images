@@ -1,0 +1,15 @@
+@import "support/colors";
+
+.tilt-icon.tilt-icon-delivery {
+  max-width: 54px;
+  max-height: 56px;
+  .tilt-icon-main {
+    fill: none;
+    fill-rule: evenodd;
+    stroke-width: 1px;
+    stroke: none;
+  }
+  .tilt-icon-inner{
+    fill: $tilt-blue;
+  }
+}
