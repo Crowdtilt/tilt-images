@@ -1,12 +1,15 @@
 machine:
+  environment:
+    PATH: $PATH:~/.yarn/bin
   node:
     version: 4.2.2
 
 dependencies:
   pre:
-    - curl -o- -L https://yarnpkg.com/install.sh | bash
+    - if [[ ! -e ~/.yarn ]]; then curl -o- -L https://yarnpkg.com/install.sh | bash; fi
   cache_directories:
     - ~/.yarn-cache
+    - ~/.yarn
   override:
     - yarn install
 
