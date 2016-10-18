@@ -7,7 +7,7 @@ test:
   - mkdir -p $CIRCLE_TEST_REPORTS/junit/
   - find . -maxdepth 1 -type f -regex ".*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
 
-deploy:
+deployment:
   production:
     branch: dev
     commands:
