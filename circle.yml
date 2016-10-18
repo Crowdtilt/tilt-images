@@ -3,9 +3,12 @@ machine:
     version: 4.2.2
 
 dependencies:
+  pre:
+    - curl -o- -L https://yarnpkg.com/install.sh | bash
+  cache_directories:
+    - ~/.yarn-cache
   override:
-  - npm install -g yarn
-  - yarn install
+    - yarn install
 
 test:
   post:
