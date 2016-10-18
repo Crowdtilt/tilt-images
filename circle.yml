@@ -3,6 +3,13 @@ machine:
     version: 4.2.2
 
 test:
-    post:
-    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-    - find . -maxdepth 1 -type f -regex ".*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+  post:
+  - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+  - find . -maxdepth 1 -type f -regex ".*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+
+deploy:
+  production:
+    branch: dev
+    commands:
+    - npm publish
+
